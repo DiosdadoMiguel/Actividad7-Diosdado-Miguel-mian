@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+scroll-behavior: smooth;
+}
+
+.contenido{
+    height: 100vh;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+#In{
+    background-image: url('../images/In.jpg');
+}
+#p1{
+    background-image: url('../images/parte1.jpg');
+    align-items: center;
+}
+#p2{
+    background-image: url('../images/parte2.jpg');
+    align-items: center;
+}
+#p3{
+    background-image: url('../images/parte3.jpg');
+    align-items: center;
+}
+#p4{
+    background-image: url('../images/parte4.jpg');
+    align-items: center;
+}
+#p5{
+    background-image: url('../images/parte5.jpg');
+    align-items: center;
+}
+
+#p6{
+    background-image: url('../images/parte6.jpg');
+    align-items: center;
+}
+
+#SBR{
+    background-image: url('../images/SBR.jpg');
+    align-items: center;
+}
+
+/*Menu*/
+nav{
+    position: fixed;
+    left: 200px;
+    top: 30%;
+    z-index: 100;
+    transition: 0.3s ease;
+    transform: translateX(-50%);
+}
+
+ul{
+    list-style: none;
+}
+
+ul a{
+    display: block;
+    color:#7C00D6;
+    text-decoration: none;
+    border: 1px solid #7C00D6;
+    padding: 10px 0;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+a:hover{
+    transform: translateX(10%);
+    background-color: #3600D6;
+    color: #0097D6;
+    border: none;
+}
